@@ -1,0 +1,13 @@
+appcenter login
+
+appcenter --version
+
+appcenter apps list
+
+appcenter apps set-current jabenn/App-Center-Test
+
+appcenter build branches list
+
+appcenter build download -i 7 -t build 
+
+appcenter test run uitest --devices 88c60552 --app-path ./build_master_7_1.ipa --test-series "runtests" --locale "en_US" --build-dir ./AppCenterSample.UITests/bin/Debug/
