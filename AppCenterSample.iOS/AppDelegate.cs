@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Microsoft.AppCenter.Distribute;
 using UIKit;
 
 namespace AppCenterSample.iOS
@@ -24,6 +25,7 @@ namespace AppCenterSample.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+            Distribute.DontCheckForUpdatesInDebug();
 
             return base.FinishedLaunching(app, options);
         }
