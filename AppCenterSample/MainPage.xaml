@@ -5,17 +5,25 @@
              BackgroundColor="#CB2E6D"
              Padding="50">
     <StackLayout HorizontalOptions="Fill" VerticalOptions="Center"
-                 Spacing="50">
+                 Spacing="30">
         <Image HorizontalOptions="Center" Aspect="AspectFit"
                HeightRequest="100" WidthRequest="100" 
                Source="logovsmobilecenter" Margin="0,0,0,50"/>
         
         <Button Text="Send event" TextColor="White" BorderColor="White"
-                BorderWidth="2" CornerRadius="10"
+                BorderWidth="2" CornerRadius="10" BackgroundColor="#CB2E6D"
                 Clicked="SendEventClicked"/>
         
         <Button Text="Send crash" TextColor="White" BorderColor="White"
-                BorderWidth="2" CornerRadius="10"
+                BorderWidth="2" CornerRadius="10" BackgroundColor="#CB2E6D"
                 Clicked="SendCrashClick"/>
+        
+        <Button Text="Change the number below" TextColor="White" BorderColor="White"
+                BorderWidth="2" CornerRadius="10" BackgroundColor="#CB2E6D"
+                Clicked="ChangeNumberClick"
+                AutomationId="ChangeNumberButton"/>
+        
+        <Label x:Name="NumberLabel" AutomationId="NumberLabel"
+               TextColor="White" Text="Number: 0" HorizontalOptions="Center"/>
     </StackLayout>
 </ContentPage>

@@ -1,0 +1,164 @@
+{
+  "protocol_version" : "0.0.1",
+  "configuration" : {
+    "version" : "5.16.0.113 (2018-06/192987859f8 Fri Aug 17 09:36:19 EDT 2018)",
+    "tlc" : "normal",
+    "sigsgev" : "altstack",
+    "notifications" : "kqueue",
+    "architecture" : "x86",
+    "disabled_features" : "none",
+    "smallconfig" : "disabled",
+    "bigarrays" : "disabled",
+    "softdebug" : "enabled",
+    "interpreter" : "enabled",
+    "llvm_support" : "3.6.0svn-mono-master/0b3cb8ac12c"
+  },
+  "memory" : {
+    "Resident Size" : "74928128",
+    "Virtual Size" : "793288704",
+    "minor_gc_time" : "1023285",
+    "major_gc_time" : "519066",
+    "minor_gc_count" : "18",
+    "major_gc_count" : "3",
+    "major_gc_time_concurrent" : "385639"
+  },
+  "threads" : [
+    {
+      "is_managed" : false,
+      "managed_thread_ptr" : "0x7bbb383c",
+      "thread_info_addr" : "0x79ba7c00",
+      "native_thread_id" : "0x50fa40",
+      "ctx" : {
+        "IP" : "0xa7c13e76",
+        "SP" : "0xbff8c1ac",
+        "BP" : "0xbff8c208"
+      },
+      "unmanaged_frames" : [
+        {
+          "native_address" : "0xbceeb"
+        },
+        {
+          "native_address" : "0x221b97"
+        },
+        {
+          "native_address" : "0x11082c"
+        },
+        {
+          "native_address" : "outside mono-sgen"
+        },
+        {
+          "native_address" : "outside mono-sgen"
+        },
+        {
+          "native_address" : "0x2734a8"
+        },
+        {
+          "native_address" : "0x150d5"
+        },
+        {
+          "native_address" : "0x82f50"
+        },
+        {
+          "native_address" : "0x2317"
+        },
+        {
+          "native_address" : "0x2145"
+        },
+        {
+          "native_address" : "outside mono-sgen"
+        }
+      ]
+    },
+    {
+      "is_managed" : false,
+      "managed_thread_ptr" : "0x7b3a8a3c",
+      "thread_info_addr" : "0x7b3aa400",
+      "thread_name" : "Finalizer",
+      "native_thread_id" : "0xb0604000",
+      "ctx" : {
+        "IP" : "0x2f8e58",
+        "SP" : "0xb0603ac0",
+        "BP" : "0xb0603ac8"
+      },
+      "managed_frames" : [
+        {
+          "native_address" : "0x284e58"
+        },
+        {
+          "native_address" : "outside mono-sgen",
+          "unmanaged_name" : "(wrapper managed-to-native) System.Runtime.InteropServices.GCHandle:CheckCurrentDomain (int)"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "0242286E-FC4A-47B6-9B5A-84E828F56EF8",
+          "token" : "0x600474e",
+          "native_offset" : "0x23",
+          "il_offset" : "0x00018"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "0242286E-FC4A-47B6-9B5A-84E828F56EF8",
+          "token" : "0x6004758",
+          "native_offset" : "0x17",
+          "il_offset" : "0x00000"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "3B90849D-1D31-4DAA-9771-88BE11026E8B",
+          "token" : "0x6002ea7",
+          "native_offset" : "0x23",
+          "il_offset" : "0x00000"
+        },
+        {
+          "native_address" : "outside mono-sgen",
+          "unmanaged_name" : "(wrapper native-to-managed) System.IO.Compression.DeflateStreamNative:UnmanagedWrite (intptr,int,intptr)"
+        },
+        {
+          "native_address" : "outside mono-sgen"
+        },
+        {
+          "native_address" : "outside mono-sgen",
+          "unmanaged_name" : "(wrapper managed-to-native) System.IO.Compression.DeflateStreamNative:CloseZStream (intptr)"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "3B90849D-1D31-4DAA-9771-88BE11026E8B",
+          "token" : "0x60041fe",
+          "native_offset" : "0x13",
+          "il_offset" : "0x00000"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "0242286E-FC4A-47B6-9B5A-84E828F56EF8",
+          "token" : "0x6004717",
+          "native_offset" : "0x1b8",
+          "il_offset" : "0x000a3"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "0242286E-FC4A-47B6-9B5A-84E828F56EF8",
+          "token" : "0x6004716",
+          "native_offset" : "0x23",
+          "il_offset" : "0x00008"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "0242286E-FC4A-47B6-9B5A-84E828F56EF8",
+          "token" : "0x6004710",
+          "native_offset" : "0x2b",
+          "il_offset" : "0x0000a"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "0242286E-FC4A-47B6-9B5A-84E828F56EF8",
+          "token" : "0x6004709",
+          "native_offset" : "0x18",
+          "il_offset" : "0x00000"
+        },
+        {
+          "native_address" : "outside mono-sgen",
+          "unmanaged_name" : "(wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)"
+        }
+      ]
+    }
+  ]}

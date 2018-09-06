@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCenterSample.iOS", "AppC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCenterSample", "AppCenterSample\AppCenterSample.csproj", "{E06DA8F8-0022-4425-B9F5-C9977F8A942F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCenterSample.UITests", "AppCenterSample.UITests\AppCenterSample.UITests.csproj", "{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,5 +69,21 @@ Global
 		{E06DA8F8-0022-4425-B9F5-C9977F8A942F}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
 		{E06DA8F8-0022-4425-B9F5-C9977F8A942F}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
 		{E06DA8F8-0022-4425-B9F5-C9977F8A942F}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Release|iPhone.Build.0 = Release|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{FFB61B8F-6CC7-48B7-ACEE-B98B33A774CA}.AppStore|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

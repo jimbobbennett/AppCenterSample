@@ -25,5 +25,12 @@ namespace AppCenterSample
         {
             Crashes.GenerateTestCrash();
         }
+
+        int number;
+        public void ChangeNumberClick(object sender, EventArgs e)
+        {
+            number++;
+            NumberLabel.Text = $"Number: {number}";
+        }
     }
 }

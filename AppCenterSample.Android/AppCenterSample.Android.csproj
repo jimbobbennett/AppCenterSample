@@ -101,6 +101,7 @@
     <AndroidResource Include="Resources\drawable-hdpi\logovsmobilecenter.png" />
     <AndroidResource Include="Resources\drawable-mdpi\logovsmobilecenter.png" />
     <AndroidResource Include="Resources\drawable-ldpi\logovsmobilecenter.png" />
+    <AndroidResource Include="Resources\drawable\launch_screen.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
