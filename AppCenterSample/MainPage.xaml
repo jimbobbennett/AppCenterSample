@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="AppCenterSample.MainPage"
+             BackgroundColor="#CB2E6D"
+             Padding="50">
+    <StackLayout HorizontalOptions="Fill" VerticalOptions="Center"
+                 Spacing="50">
+        <Image HorizontalOptions="Center" Aspect="AspectFit"
+               HeightRequest="100" WidthRequest="100" 
+               Source="logovsmobilecenter" Margin="0,0,0,50"/>
+        
+        <Button Text="Send event" TextColor="White" BorderColor="White"
+                BorderWidth="2" CornerRadius="10"/>
+        
+        <Button Text="Send crash" TextColor="White" BorderColor="White"
+                BorderWidth="2" CornerRadius="10"/>
+    </StackLayout>
+</ContentPage>
