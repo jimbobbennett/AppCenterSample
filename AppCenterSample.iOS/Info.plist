@@ -47,5 +47,7 @@
 	</array>
 	<key>CFBundleShortVersionString</key>
 	<string>1</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>
