@@ -27,7 +27,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>io.jimbobbennett.AppCenterSample</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
@@ -45,5 +45,7 @@
 			</array>
 		</dict>
 	</array>
+	<key>CFBundleShortVersionString</key>
+	<string>1</string>
 </dict>
 </plist>
