@@ -27,6 +27,10 @@ namespace AppCenterSample.iOS
             LoadApplication(new App());
             Distribute.DontCheckForUpdatesInDebug();
 
+#if ENABLE_TEST_CLOUD
+Xamarin.Calabash.Start();
+#endif
+
             return base.FinishedLaunching(app, options);
         }
     }
