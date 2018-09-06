@@ -11,9 +11,11 @@
                Source="logovsmobilecenter" Margin="0,0,0,50"/>
         
         <Button Text="Send event" TextColor="White" BorderColor="White"
-                BorderWidth="2" CornerRadius="10"/>
+                BorderWidth="2" CornerRadius="10"
+                Clicked="SendEventClicked"/>
         
         <Button Text="Send crash" TextColor="White" BorderColor="White"
-                BorderWidth="2" CornerRadius="10"/>
+                BorderWidth="2" CornerRadius="10"
+                Clicked="SendCrashClick"/>
     </StackLayout>
 </ContentPage>

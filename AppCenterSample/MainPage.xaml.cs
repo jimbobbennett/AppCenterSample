@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
 
 namespace AppCenterSample
@@ -12,6 +14,16 @@ namespace AppCenterSample
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        public void SendEventClicked(object sender, EventArgs e)
+        {
+            Analytics.TrackEvent("Event", new Dictionary<string, string> { { "Date", DateTime.UtcNow.ToString() }, { "Source", "Birmingham" } });
+        }
+
+        public void SendCrashClick(object sender, EventArgs e)
+        {
+            Crashes.GenerateTestCrash();
         }
     }
 }
