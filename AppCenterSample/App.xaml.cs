@@ -3,6 +3,7 @@ using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Microsoft.AppCenter.Distribute;
+using Microsoft.AppCenter.Push;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -27,7 +28,11 @@ namespace AppCenterSample
         {
             AppCenter.Start("ios=acee40cf-58cd-421c-a4f5-dba0683a4df9;" +
                             "android=68132a34-9578-4a61-bf5c-fbd10ca6f9cc",
-                            typeof(Analytics), typeof(Crashes), typeof(Distribute));
+                            typeof(Analytics), 
+                            typeof(Crashes), 
+                            typeof(Distribute), 
+                            typeof(Push));
+            AppCenter.LogLevel = LogLevel.Verbose;
         }
 
         protected override void OnSleep()
