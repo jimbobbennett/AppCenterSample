@@ -34,7 +34,10 @@ namespace AppCenterSample.UITests
         [Test]
         public void CanIncrementCounter()
         {
+            app.Screenshot("Before incrementing");
             app.Tap("ChangeNumberButton");
+            app.Screenshot("After incrementing");
+
             var text = app.Query("NumberLabel").Single().Text;
             Assert.AreEqual("Number: 1", text, $"Number should be 1 but is {text}");
         }
