@@ -18,7 +18,7 @@ namespace AppCenterSample
 
         public void SendEventClicked(object sender, EventArgs e)
         {
-            Analytics.TrackEvent("Event", new Dictionary<string, string> { { "Source", "Birmingham" } });
+            Analytics.TrackEvent("My Event", new Dictionary<string, string> { { "Source", "Birmingham" } });
         }
 
         public void SendCrashClick(object sender, EventArgs e)
